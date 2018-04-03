@@ -55,8 +55,6 @@ etornada.
  });
  })
 
-        console.log('OAKOSAKSAOKSAOK');
-
 
  delete(): deleta um elemento do cache
  cache.keys(request): se request não é informado retorna todos itens do cache. Se
