@@ -55,6 +55,7 @@ etornada.
  });
  })
 
+        console.log('OAKOSAKSAOKSAOK');
 
 
  delete(): deleta um elemento do cache
