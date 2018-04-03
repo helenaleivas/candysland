@@ -1,0 +1,34 @@
+@media only screen and (min-width: 320px){
+  nav.navbar-light{
+    margin-left:20px;
+    margin-top: 20px;
+  }
+
+  .form a{
+    font-size: 18px;
+    color:#cb006d;
+    border-style:solid;
+    border-color: #b90069;
+    border-width: medium;
+  }
+  .form a.active{
+    color: white;
+    background-color: #cb006d;
+    text-decoration: underline;
+  }
+  ul.details li{
+    list-style: none;
+    font-size: 16px;
+  }
+
+}
+@media only screen and (min-width: 920px) {
+
+  ul.details li{
+    font-size: 20px;
+  }
+  .containerPerfil div.container{
+    margin-top: -30px;
+    margin-left: 18%;
+  }
+}

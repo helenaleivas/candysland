@@ -1,0 +1,60 @@
+@media only screen and (min-width: 320px){
+  .containerCardapios{
+    margin-top: -10px;
+  }
+  div#aviso{
+    font-size: 16px;
+  }
+  div.row{
+    width: 95%;
+  }
+  .thumbnails{
+    list-style: none;
+  }
+  nav#pagination{
+    margin-left: 25%;
+  }
+  .container {
+    position: relative;
+    display: none;
+  }
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+}
+@media only screen and (min-width: 920px) {
+  div#aviso{
+    font-size: 18px;
+  }
+  .thumbnails{
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .thumbnail{
+    float:left;
+    margin-left: 20px;
+    width: 180px;
+  }
+  .thumbnail h3#nomeProduto{
+    font-size: 16px;
+  }
+  nav#pagination{
+    display: flex;
+    float: right;
+    position: relative;
+  }
+}

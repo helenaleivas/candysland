@@ -1,0 +1,21 @@
+@media only screen and (min-width: 320px){
+  p.parag{
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color:#ff2b45;
+  }
+  div#finalizando{
+    margin-top: -30px;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  a#compra{
+    width: 50%;
+  }
+  div#info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}

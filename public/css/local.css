@@ -1,0 +1,29 @@
+@media only screen and (min-width: 320px){
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  #localizacao p{
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  #localizacao h2{
+    font-weight: 600;
+    font-size: 22px;
+    color:#c30058;
+  }
+  #localizacao h3{
+    font-weight: 600;
+    font-size: 22px;
+    color:#c30058;
+  }
+}
+@media only screen and (min-width: 920px) {
+  #localizacao p{
+    font-size: 20px;
+  }
+  #localizacao h2{
+    font-size: 30px;
+  }
+}

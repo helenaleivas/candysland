@@ -1,0 +1,193 @@
+*{
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 320px){
+  .bg-1{
+    background-color: white;
+    border:outset;
+    border-color: #ff6b9c;
+    border-width:thick;
+    height: 10em;
+  }
+  .bg-1 h1#brand{
+    font-size: 30px;
+    width: 100%;
+    height: 20px;
+    padding-top: 30px;
+    font-family: 'Pacifico', cursive;
+    color:#ff2b45;
+    text-align: center;
+    padding-left: 30%;
+  }
+  .bg-1 a{
+    position: relative;
+    font-size: 13px;
+    font-family:inherit;
+    color:#ff2b45;
+    float: right;
+    padding: 3% 5%;
+  }
+  .logo{
+    height: 20%;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: -15%;
+  }
+  #doce{
+    width: 8em;
+    height: 8em;
+  }
+  div.navbar-header{
+    height: 50px;
+  }
+  form.navbar-form{
+    border: none;
+    display: inline-block;
+  }
+  form.navbar-form .form-group{
+    width: 100%;
+    margin-top:-10px;
+    margin-left: 8px;
+    display:flex;
+  }
+  ul.navbar-nav li{
+    text-align: center;
+    border-top: solid;
+    border-width: thin;
+    border-color: #f55b58;
+    padding-top: 10px;
+  }
+  .navbar-nav li>a span{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color:#ff2b45;
+  }
+  .dropdown-menu li{
+    height: 45px;
+  }
+  h1.title{
+    color:#ff2b45;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+  }
+  img#oferta{
+    width: 100%;
+    height: 250px;
+  }
+  div.maisVendidos{
+    height: 350px;
+    text-align: center;
+  }
+  div.maisVendidos h2{
+    color:#ff2b45;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+  }
+  div.img{
+    float:left;
+    margin-left: 13px;
+    display: flex;
+    margin-top:20px;
+  }
+  img.foto{
+    width: 140px;
+    height: 100px;
+  }
+  .footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    border-top:outset;
+    border-color: #ff6b9c;
+    border-width:thick;
+  }
+  .rodape{
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    list-style:none;
+  }
+  .rodape li{
+    padding-bottom: 8px;
+    text-decoration: underline;
+  }
+  .rodape li a{
+    color: #ff6b9c;
+    font-weight:normal;
+  }
+  div.icons{
+    width: 100%;
+    text-align:center;
+    border-bottom: outset;
+    border-color: #ff6b9c;
+    border-bottom-width: thick;
+  }
+  span#icon{
+    font-size: 35px;
+    color: #d90772;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  #search{
+    float: right;
+    width: 100%;
+  }
+  div.navbar-header{
+    float: right;
+  }
+  form.navbar-form .form-group{
+    width: 90%;
+    margin-top:10px;
+    margin-right: 290px;
+  }
+  ul.navbar-nav li{
+    border: none;
+  }
+  h1.title{
+    font-size: 50px;
+  }
+  .carousel{
+    margin-top: 25px;
+    width: 80%;
+    border: solid 4px #bdbdbd;
+  }
+  .carousel-inner{
+    height: 390px;
+  }
+  div#mais{
+    margin-left: 140px;
+  }
+  div.maisVendidos h2{
+      font-size: 50px;
+  }
+  img#oferta{
+    width: 100%;
+    height: 390px;
+  }
+  div.img{
+    margin-top:20px;
+    display: flex;
+  }
+  .img img#mais1{
+    margin-left: 110px;
+  }
+  img.foto{
+    width: 250px;
+    height: 210px;
+  }
+  .rodape{
+    float: left;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 100px;
+    font-size: 20px;
+    list-style:none;
+  }
+}

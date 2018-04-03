@@ -1,0 +1,20 @@
+@media only screen and (min-width: 320px){
+  div.produto{
+    text-align: center;
+    margin-top:30px;
+    width: 90%;
+  }
+  div.produto img{
+    margin-left: -2px;
+  }
+  p#prdt a{
+    font-size: 20px;
+  }
+  p#prdt a span{
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 920px) {
+  div.produto{
+    width: 20%;
+}
