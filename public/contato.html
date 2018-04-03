@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+    <html lang=”pt-br”>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset=”UTF-8”>
+            <title>Trabalho de Engenharia de Software</title>
+            <link rel="stylesheet" href="css/home.css">
+            <link rel="stylesheet" href="css/contato.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        </head>
+        <body>
+          <nav class="navbar">
+            <div class="bg-1">
+              <a href="login.html"><span>Entrar/Cadastrar</span></a>
+              <h1 id="brand">Candy's Land</h1>
+              <div class="logo">
+                <a href="index.html">  <img src="imgGeral/doce.png" id="doce" alt=""></a>
+              </div>
+            </div>
+            <nav class="navbar navbar-default" >
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <form class="navbar-form">
+                    <div class="form-group">
+                      <input id="search" type="text" name="search" class="form-control" placeholder="Search">
+                      <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                  </form>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="local.html"><span>Localização</span></a></li>
+                    <li><a href="sobre.html"><span>Sobre</span></a></li>
+                    <li><a href="cadastro.html"><span>Cadastro</span></a></li>
+                    <li><a href="contato.html"><span>Contato</span></a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Cardápios</span><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="doce.html"><span>Doces</span></a></li>
+                        <li><a href="salgado.html"><span>Salgados</span></a></li>
+                        <li><a href="bolo.html"><span>Bolos & Tortas</span></a></li>
+                        <li><a href="bebida.html"><span>Bebidas</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </nav>
+
+          <div class="container">
+            <h1 class="title">Atendimento ao Cliente<i class="fa fa-comment-o"></i></h1>
+            <h2 class="subtitle">Perguntas Frequentes</h2>
+            <p id="info">
+              <h5>
+                Como eu posso fazer um comentário sobre o atendimento que recebi em uma loja Candy's Land?
+                <br>
+              </h5>
+              Seu feedback sobre nossos serviços será sempre bem-vindo – conte-nos se você ficou satisfeito com o atendimento ou se ele deixou a desejar. Entre em contato conosco com seus comentários e nós responderemos o mais breve possível.
+              <br>
+              <h5>
+                Como posso pedir a abertura de uma loja Candy's Land na minha região?
+                <br>
+              </h5>
+              Entre em contato conosco para nos falar sobre seu interesse em ter uma nova loja Candy's Land em sua comunidade.
+              <br>
+              <h5>
+                Como posso relatar um problema técnico com o Candy's Land.com.br?
+                <br>
+              </h5>
+              Se estiver com problemas para usar o nosso site, envie-nos um email através da área Atendimento ao cliente do site. Forneça o máximo possível de informações sobre as circunstâncias em que o problema ocorreu, pois isso nos ajudará a analisá-lo e corrigi-lo.
+              <br>
+            </p>
+            <div id="span" align="center">
+              <span>Deseja fazer uma sugestão, reclamação, comntário ou tirar alguma dúvida?</span>
+              <br>
+              <span>Nos mande um email ou ligue!</span>
+            </div>
+            <hr>
+            <div class="container">
+              <div class="form-group">
+                <label class="control-label">Nome</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="Sobrenome" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">Email</label>
+                <input type="email" class="form-control email" id="email-input" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label class="control-label">CPF</label>
+                <input maxlength="9" type="text" required="required" class="form-control" placeholder="CPF" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">Mensagem:</label>
+                <textarea class="form-control"name="name" rows="6" cols="20">Escreva sua mensagem</textarea>
+              </div>
+              <a href="index.html"class="btn btn-danger extBtn btn-lg pull-right" type="button">Enviar Email</a>
+            </div>
+            <hr>
+            <div class="sac">
+              <h3>SAC<i class="glyphicon glyphicon-earphone"></i></h3>
+              <span>0800 123-4567</span>
+              <p>Horário de Atendimento: 24 horas por dia, 7 dias da semana</p>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="icons">
+              <a href="https://facebook.com"><span id="icon" class="fa fa-facebook"></span></a>
+              <a href="https://instagram.com"><span id="icon"class="fa fa-instagram"></span></a>
+              <a href="https://twitter.com"><span id="icon"class="fa fa-twitter"></span></a>
+            </div>
+            <ul class="rodape">
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="local.html">Aonde nos encontrar</a></li>
+              <li><a href="contato.html">Atendimento ao Cliente</a></li>
+              <li><a href="termos.html">Termos de Uso</a></li>
+              <li><a href="politica.html">Política de Privacidade</a></li>
+            </ul>
+          </footer>
+
+
+
+        </body>
+    </html>
