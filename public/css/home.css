@@ -73,7 +73,7 @@
     text-align: center;
     font-family: 'Pacifico', cursive;
   }
-  img.oferta{
+  img#oferta{
     width: 100%;
     height: 250px;
   }
@@ -127,7 +127,7 @@
     border-color: #ff6b9c;
     border-bottom-width: thick;
   }
-  span.icon{
+  span#icon{
     font-size: 35px;
     color: #d90772;
     padding: 10px;
@@ -167,7 +167,7 @@
   div.maisVendidos h2{
       font-size: 50px;
   }
-  img.oferta{
+  img#oferta{
     width: 100%;
     height: 390px;
   }
