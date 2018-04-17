@@ -73,20 +73,20 @@
     text-align: center;
     font-family: 'Pacifico', cursive;
   }
-  img.oferta{
+  div.item img.oferta{
     width: 100%;
     height: 250px;
   }
-  div.maisVendidos{
+  div#mais{
     height: 350px;
     text-align: center;
   }
-  div.maisVendidos h2{
+  div#mais h2{
     color:#ff2b45;
     font-size: 25px;
     font-family: 'Pacifico', cursive;
   }
-  div.img{
+  div.vendido{
     float:left;
     margin-left: 13px;
     display: flex;
@@ -161,24 +161,22 @@
   .carousel-inner{
     height: 390px;
   }
-  div#mais{
-    margin-left: 140px;
-  }
-  div.maisVendidos h2{
-      font-size: 50px;
-  }
-  img.oferta{
+  div.item img.oferta{
     width: 100%;
     height: 390px;
   }
-  div.img{
+  div#mais{
+    margin-left: 200px;
+  }
+  div#mais h2{
+    font-size: 50px;
+    margin-left: -200px;
+  }
+  div.vendido{
     margin-top:20px;
     display: flex;
   }
-  .img img#mais1{
-    margin-left: 110px;
-  }
-  img.foto{
+  .vendido img.foto{
     width: 250px;
     height: 210px;
   }
