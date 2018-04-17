@@ -15,7 +15,7 @@
     list-style: none;
     font-size: 16px;
   }
-  ul.details button#retirar{
+  ul.details button.retirar{
     margin-left: 45px;
   }
   ul.details li .qnt{
@@ -23,7 +23,7 @@
     margin-left: 10px;
     margin-bottom: 15px;
   }
-  h2#nomeProduto{
+  h2.nomeProduto{
     text-align: center;
   }
   .containerCarrinho hr{
