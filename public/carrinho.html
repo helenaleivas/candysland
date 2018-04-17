@@ -132,11 +132,279 @@
           </div>
 
 
+          <!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset=utf-8>
+            <title>Trabalho de Engenharia de Software</title>
+            <link rel="stylesheet" href="css/home.css">
+            <link rel="stylesheet" href="css/carrinho.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        </head>
+        <body>
+          <nav class="navbar">
+            <div class="bg-1">
+              <a href="login.html"><span>Entrar/Cadastrar</span></a>
+              <h1 id="brand">Candy's Land</h1>
+              <div class="logo">
+                <a href="index.html">  <img src="imgGeral/doce.png" id="doce" alt=""></a>
+              </div>
+            </div>
+            <nav class="navbar navbar-default" >
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <form class="navbar-form">
+                    <div class="form-group">
+                      <input id="search" type="text" name="search" class="form-control" placeholder="Search">
+                      <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                  </form>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="local.html"><span>Localização</span></a></li>
+                    <li><a href="sobre.html"><span>Sobre</span></a></li>
+                    <li><a href="cadastro.html"><span>Cadastro</span></a></li>
+                    <li><a href="contato.html"><span>Contato</span></a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Cardápios</span><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="doce.html"><span>Doces</span></a></li>
+                        <li><a href="salgado.html"><span>Salgados</span></a></li>
+                        <li><a href="bolo.html"><span>Bolos & Tortas</span></a></li>
+                        <li><a href="bebida.html"><span>Bebidas</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </nav>
+
+          <div class="container">
+            <h1 class="title">Carrinho</h1>
+            <div class="row">
+          		<ul class="thumbnails">
+                  <li>
+                    <div class="thumbnail">
+                      <img src="doce/brigadeiro.jpeg" alt="ALT NAME">
+                      <h2 class="nomeProduto">Brigadeiro</h2>
+                        <div class="container">
+                          <ul class="details" >
+                            <li><p>Preço: R$5,00</p></li>
+                            <li>
+                              <span>Quantidade:</span><input class="qnt" type="number" value="" placeholder="0">
+                            </li>
+                            <li>
+                              <button class="retirar" type="button" name="button">Retirar do carrinho</button>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="thumbnail">
+                      <img src="salgado/tortaFrango.jpeg" alt="ALT NAME">
+                      <h2 class="nomeProduto">Torta de Frango</h2>
+                        <div class="container">
+                          <ul class="details" >
+                            <li><p>Preço: R$5,00</p></li>
+                            <li>
+                              <span>Quantidade:</span><input class="qnt" type="number" value="" placeholder="0">
+                            </li>
+                            <li>
+                              <button class="retirar" type="button" name="button">Retirar do carrinho</button>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="thumbnail">
+                      <img src="doce/macarons.jpeg" alt="ALT NAME">
+                      <h2 class="nomeProduto">Macarons</h2>
+                        <div class="container">
+                          <ul class="details" >
+                            <li><p>Preço: R$5,00</p></li>
+                            <li>
+                              <span>Quantidade:</span><input class="qnt" type="number" value="" placeholder="0">
+                            </li>
+                            <li>
+                              <button class="retirar" type="button" name="button">Retirar do carrinho</button>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </li>
+              </ul>
+          	</div>
+            <hr>
+            <div class="subtotal">
+              <h3>SUBTOTAL</h3>
+              <p>Brigadeiro ------------- 1 uni. ----- R$5,00</p>
+              <p>Torta de Frango ------ 1 uni. ----- R$5,00</p>
+              <p>Macarons -------------- 1 uni. ----- R$5,00</p>
+            </div>
+            <hr>
+            <div class="total">
+              <p>TOTAL ------------------------------ R$15,00</p>
+            </div>
+            <hr>
+            <a href="finalizando.html" id="finalizar" class="button btn btn-lg btn-danger btn-block submit" name="Submit" value="Login" type="Submit">Finalizar compra</a>
+          </div>
+
+
+          <!DOCTYPE HTML>
+    <html lang="en">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset=utf-8>
+            <title>Trabalho de Engenharia de Software</title>
+            <link rel="stylesheet" href="css/home.css">
+            <link rel="stylesheet" href="css/carrinho.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        </head>
+        <body>
+          <nav class="navbar">
+            <div class="bg-1">
+              <a href="login.html"><span>Entrar/Cadastrar</span></a>
+              <h1 id="brand">Candy's Land</h1>
+              <div class="logo">
+                <a href="index.html">  <img src="imgGeral/doce.png" id="doce" alt=""></a>
+              </div>
+            </div>
+            <nav class="navbar navbar-default" >
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <form class="navbar-form">
+                    <div class="form-group">
+                      <input id="search" type="text" name="search" class="form-control" placeholder="Search">
+                      <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                  </form>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="local.html"><span>Localização</span></a></li>
+                    <li><a href="sobre.html"><span>Sobre</span></a></li>
+                    <li><a href="cadastro.html"><span>Cadastro</span></a></li>
+                    <li><a href="contato.html"><span>Contato</span></a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Cardápios</span><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="doce.html"><span>Doces</span></a></li>
+                        <li><a href="salgado.html"><span>Salgados</span></a></li>
+                        <li><a href="bolo.html"><span>Bolos & Tortas</span></a></li>
+                        <li><a href="bebida.html"><span>Bebidas</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </nav>
+
+          <div class="container">
+            <h1 class="title">Carrinho</h1>
+            <div class="row">
+          		<ul class="thumbnails">
+                  <li>
+                    <div class="thumbnail">
+                      <img src="doce/brigadeiro.jpeg" alt="ALT NAME">
+                      <h2 class="nomeProduto">Brigadeiro</h2>
+                        <div class="container">
+                          <ul class="details" >
+                            <li><p>Preço: R$5,00</p></li>
+                            <li>
+                              <span>Quantidade:</span><input class="qnt" type="number" value="" placeholder="0">
+                            </li>
+                            <li>
+                              <button class="retirar" type="button" name="button">Retirar do carrinho</button>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="thumbnail">
+                      <img src="salgado/tortaFrango.jpeg" alt="ALT NAME">
+                      <h2 class="nomeProduto">Torta de Frango</h2>
+                        <div class="container">
+                          <ul class="details" >
+                            <li><p>Preço: R$5,00</p></li>
+                            <li>
+                              <span>Quantidade:</span><input class="qnt" type="number" value="" placeholder="0">
+                            </li>
+                            <li>
+                              <button class="retirar" type="button" name="button">Retirar do carrinho</button>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="thumbnail">
+                      <img src="doce/macarons.jpeg" alt="ALT NAME">
+                      <h2 class="nomeProduto">Macarons</h2>
+                        <div class="container">
+                          <ul class="details" >
+                            <li><p>Preço: R$5,00</p></li>
+                            <li>
+                              <span>Quantidade:</span><input class="qnt" type="number" value="" placeholder="0">
+                            </li>
+                            <li>
+                              <button class="retirar" type="button" name="button">Retirar do carrinho</button>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                  </li>
+              </ul>
+          	</div>
+            <hr>
+            <div class="subtotal">
+              <h3>SUBTOTAL</h3>
+              <p>Brigadeiro ------------- 1 uni. ----- R$5,00</p>
+              <p>Torta de Frango ------ 1 uni. ----- R$5,00</p>
+              <p>Macarons -------------- 1 uni. ----- R$5,00</p>
+            </div>
+            <hr>
+            <div class="total">
+              <p>TOTAL ------------------------------ R$15,00</p>
+            </div>
+            <hr>
+            <a href="finalizando.html" id="finalizar" class="button btn btn-lg btn-danger btn-block submit" name="Submit" value="Login" type="Submit">Finalizar compra</a>
+          </div>
+
+
           <footer class="footer">
             <div class="icons">
-              <a href="https://facebook.com"><span id="icon" class="fa fa-facebook"></span></a>
-              <a href="https://instagram.com"><span id="icon"class="fa fa-instagram"></span></a>
-              <a href="https://twitter.com"><span id="icon"class="fa fa-twitter"></span></a>
+              <a href="https://facebook.com"><span class="fa fa-facebook icon"></span></a>
+              <a href="https://instagram.com"><span class="fa fa-instagram icon"></span></a>
+              <a href="https://twitter.com"><span class="fa fa-twitter icon"></span></a>
             </div>
             <ul class="rodape">
               <li><a href="sobre.html">Sobre</a></li>
@@ -146,6 +414,14 @@
               <li><a href="politica.html">Política de Privacidade</a></li>
             </ul>
           </footer>
+
+        </body>
+    </html>
+
+
+        </body>
+    </html>
+
 
 
         </body>
