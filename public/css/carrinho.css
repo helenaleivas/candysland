@@ -18,7 +18,7 @@
   ul.details button#retirar{
     margin-left: 45px;
   }
-  ul.details li #qnt{
+  ul.details li .qnt{
     width:30%;
     margin-left: 10px;
     margin-bottom: 15px;
@@ -68,7 +68,7 @@
     margin-left: 20px;
     width: 280px;
   }
-  ul.details li #qnt{
+  ul.details li .qnt{
     width:10%;
   }
 
