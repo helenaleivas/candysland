@@ -7,8 +7,8 @@ self.addEventListener('install', function (event) {
       fetch(indexPage).then(function (response) {
           caches.open('pwabuilder-offline').then(function (cache) {
               console.log('[PWA Builder] Cached index page during Install' + response.url);
-              return cache.addAll(['/final/public/', '/final/public/index.html', '/final/public/bebida.html',
-                  '/final/public/bolo.html', '/final/public/cardapio.html',
+              return cache.addAll(['/final/public/', '/final/public/index.html', 
+                  '/final/public/bebida.html','/final/public/bolo.html',
                   '/final/public/cadastro.html', '/final/public/cadastro2.html',
                   '/final/public/cadastro3.html', '/final/public/contato.html',
                   '/final/public/carrinho.html', '/final/public/doce.html',
