@@ -5,12 +5,12 @@
   div.txt{
     text-align: justify;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   p.txt{
     text-align: justify;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 50px;
     line-height: 20px;
   }
