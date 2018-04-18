@@ -8,7 +8,10 @@
 	  margin: 0 auto;
 	  background-color: #eee;
 	  border: 3px dotted rgba(255, 0, 122, 0.16);
-	  }
+	 }
+	 .form-signin h3#welcome{
+		 text-align: center;
+	 }
 	.form-control {
 		text-align:center;
 	  position: relative;
