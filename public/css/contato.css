@@ -10,9 +10,11 @@
   div#info{
     padding: 0px 5px 5px;
     margin-top: 20px;
-    font-size: 18px;
     text-align: justify;
     line-height: 20px;
+  }
+  div#info p{
+    font-size: 14px;
   }
   div#span{
     text-align: center;
