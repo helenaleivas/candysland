@@ -5,13 +5,16 @@
     font-family: 'Pacifico', cursive;
     color:#ff2b45;
   }
+  div#info{
+    text-align: center;
+  }
   div#finalizando{
     margin-top: -30px;
     margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 920px) {
-  a#compra{
+  a.compra{
     width: 50%;
   }
   div#info{
