@@ -1,7 +1,7 @@
 {
     "name":"Candy's Land",
     "short_name":"Candy's Land",
-    "theme_color": "#fe809f",
+    "theme_color": "#FFE4E1",
     "background_color": "#FFE4E1",
     "orientation": "portrait",
     "display": "fullscreen",
