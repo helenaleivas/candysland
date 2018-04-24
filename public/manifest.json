@@ -4,7 +4,7 @@
     "theme_color": "#FE1953",
     "background_color": "#FE809F",
     "display": "fullscreen",
-    "Scope" : "/",
+    "Scope" : "/public/index.html",
     "start_url": "/index.html",
     "icons": [
     {
