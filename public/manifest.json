@@ -3,6 +3,7 @@
     "short_name":"Candy's Land",
     "theme_color": "#FE1953",
     "background_color": "#FE809F",
+    "orientation": "portrait",
     "display": "fullscreen",
     "Scope" : "/public/index.html",
     "start_url": "/index.html",
